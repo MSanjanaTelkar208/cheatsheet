@@ -9,4 +9,7 @@
 - kubectl get services --> List all services in the namespace
 - kubectl get pods --all-namespaces --> List all pods in all namespaces
 - kubectl get pods -o wide --> List all pods in the namespace, with more details -o output
+- kubectl get pod my-pod -o yaml  --> Get a pod's YAML
+- kubectl describe nodes <my-node>  --> Describe node with verbose output
+- kubectl describe pods <my-pod>  --> Describe pod with verbose output
 - 
